@@ -12,7 +12,7 @@ class Admin(Employee):
     super().say_id()
     print("I am an admin.")
 
-# Write your code below
+# manager inherits admin class which is multiple inheritance
 class Manager(Admin):
   def say_id(self):
     print("We are in charge")
